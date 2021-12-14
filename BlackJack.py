@@ -1,8 +1,3 @@
-
-# In this problem, we're going to explore a little of how
-# game AI works. We'll do this with a simple problem: building
-# an agent to play the popular card game Blackjack.
-#
 # Blackjack is a card game played with a standard 52-card
 # deck. Suits do not matter in Blackjack, and so we'll just
 # use letters to indicate the different cards: A, 2, 3, 4, 5,
@@ -91,13 +86,6 @@ def next_move(hand):
     else:
         return "Bust"
 
-
-# Below are some lines of code that will test your function.
-# You can change the value of the variable(s) to test your
-# function with different inputs.
-#
-# If your function works correctly, this will originally
-# print: Hit, Hit, Stay, and Bust.
 print(next_move("A3"))
 print(next_move("A39"))
 print(next_move("A397"))
