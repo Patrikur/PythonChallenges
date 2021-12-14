@@ -31,11 +31,6 @@ class Burrito:
         self.pico = pico
         self.corn = corn
 
-
-#The code below will test your class. If it is written
-#correctly, this will print True, then False. Note,
-#though, that we'll test your code against more complex
-#test cases when you submit.
 newBurrito = Burrito("Tofu", True, True, True)
 print(newBurrito.to_go)
 print(newBurrito.guacamole)
