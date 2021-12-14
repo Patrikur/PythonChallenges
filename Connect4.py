@@ -1,9 +1,3 @@
-
-# Earlier in the course, you implemented a function that could
-# find if someone had won a particular game of either tic-tac-
-# toe or mancala based on a 2D list or tuple representing the
-# current game board.
-#
 # In this problem, you'll do the same thing, but for the game
 # Connect 4. Write a function called check_winner which takes
 # as input a 2D list. It should return "X" if there are four
@@ -28,18 +22,7 @@
 # no characters besides "X", "O", and None, and you don't
 # have to worry about whether the board is actually a
 # valid game of Connect 4.
-#
-# Hints:
-# - Don't forget both kinds of diagonals, top-left to
-#   bottom-right and bottom-left to top-right.
-# - This board is too large to check every possible place
-#   for a winner: there are 69 places a player could win.
-# - Remember, if you put a negative index in a list,
-#   Python "wraps around" and checks the last value. You
-#   may have to control for this.
 
-
-# Write your function here!
 def check_winner(game):
 
     for row in range(0, 6):
@@ -92,10 +75,6 @@ def check_winner(game):
             except:
                 pass
 
-
-# The code below tests your function on three Connect-4
-# boards. Remember, the line breaks are not needed to create
-# a 2D tuple; they're used here just for readability.
 xwins = ((None, None, None, None, None, None, None),
          (None, None, None, None, None, None, None),
          (None, None, None, None, "X", None, None),
