@@ -1,4 +1,8 @@
 
+# Recall in Worked Example 5.2.5 that we showed you the code
+# for two versions of binary_search: one using recursion, one
+# using loops. For this problem, use the recursive one.
+#
 # In this problem, we want to implement a new version of
 # binary_search, called binary_search_year. binary_search_year
 # will take in two parameters: a list of instances of Date,
@@ -69,6 +73,12 @@ def binary_search_year(dates_list, year):
         return binary_search_year(dates_list[middle + 1:], year)
 
 
+# Below are some lines of code that will test your function.
+# You can change the value of the variable(s) to test your
+# function with different inputs.
+#
+# If your function works correctly, this will originally
+# print: True, then False
 listOfDates = [date(2016, 11, 26), date(2014, 11, 29),
                date(2008, 11, 29), date(2000, 11, 25),
                date(1999, 11, 27), date(1998, 11, 28),

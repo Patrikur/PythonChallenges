@@ -140,4 +140,11 @@ class Burrito:
         return self.pico
     
     def get_corn(self):
-        return self.corn
+        return self.corn        
+
+
+#Feel free to add code below to test out the class that
+#you've written. It won't be used for grading.
+
+
+

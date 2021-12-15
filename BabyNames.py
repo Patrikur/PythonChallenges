@@ -23,7 +23,8 @@ names_file = open('../resource/lib/public/babynames.csv', 'r')
 #given to both girls and boys, it is listed twice: for
 #example, so far in the 2010s, the name Jamie has been
 #given to 611 boys and 1545 girls.
-
+#
+#Use this dataset to answer the questions below.
 rec_lib = {}
 rec_list = []
 for line in names_file:
@@ -51,5 +52,15 @@ for key, value in rec_lib.items():
             dif = girl - boy
             if dif < name_count[1]:
                 name_count = [key,dif]
-
+            
+    
+    
+        
+        
 print(name_count)   
+ 
+
+#Here, add any code you want to allow you to answer the
+#questions asked below over on edX. This is just a sandbox
+#for you to explore the dataset: nothing is required for
+#submission here.
